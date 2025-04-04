@@ -1,0 +1,404 @@
+body {
+    background-color: transparent;
+    background-image: linear-gradient(120deg, rgb(102, 102, 102), rgb(0, 0, 0));
+}
+
+.hdr {
+    display: inline-block;
+}
+
+.hdr img {
+    width: 100px;
+    border: 2px solid rgb(48, 46, 46);
+}
+
+h2 {
+    margin-left: 530px;
+    font-family: "Playwrite IN", serif;
+    margin-top: -20px;
+    color: rgb(168, 158, 158);
+    padding: 10px;
+    display: inline-block;
+}
+
+.hdr h3 {
+    margin-left: 130px;
+    font-family: "Dancing Script", serif;
+    margin-top: -90px;
+    color: rgb(85, 82, 82);
+    border: 1px solid rgb(65, 65, 65);
+    width: 250px;
+    padding: 7px;
+}
+
+.hdr h3:hover {
+    color: antiquewhite;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(133, 123, 123);
+    font-size: large;
+    padding: 15px;
+}
+
+.nav {
+    margin-left: 750px;
+    margin-top: -30px;
+}
+
+.nav a:hover {
+    color: rgb(85, 82, 82);
+    background-color: antiquewhite;
+    border-radius: 9px;
+}
+
+.mid1 img {
+    width: 400px;
+    height: 70vh;
+    margin-left: 450px;
+    filter: brightness(180%);
+    margin-top: -50px;
+}
+
+.product img {
+    width: 300px;
+    height: 70vh;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 20px;
+}
+
+.men a {
+    text-decoration: none;
+    width: 100px;
+}
+
+.men button {
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: gold;
+    border-radius: 9px;
+}
+
+.men button:hover {
+    color: aliceblue;
+    background-color: black;
+    border-radius: 9px;
+}
+
+hr {
+    color: rgb(68, 64, 64);
+}
+
+.fotimg h2 {
+    margin-top: 20px;
+    margin-left: 450px;
+    display: inline-block;
+}
+
+.fotimg .im1 {
+    display: flex;
+}
+
+.fotimg .im1 img {
+
+    height: 350px;
+    width: 600px;
+    /* margin-left: 670px; */
+    display: inline-block;
+    margin-top: -250px;
+
+    /* height: 350px;
+    width: 650px;
+    margin-left: -1250px; */
+}
+
+.fotimg .im1 .ipar p {
+    width: 550px;
+    color: rgb(130, 134, 138);
+    margin-left: 700px;
+    font-size: large;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fotimg .im2 img {
+    height: 350px;
+    width: 600px;
+    margin-left: 670px;
+    display: inline-block;
+    margin-top: -250px;
+}
+
+.fotimg .im2 .ipar p {
+    width: 550px;
+    color: rgb(130, 134, 138);
+    font-size: large;
+    margin-top: 110px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.fotimg .im3 img {
+    height: 350px;
+    width: 600px;
+    display: inline-block;
+    margin-top: -270px;
+}
+
+.fotimg .im3 .ipar p {
+    width: 550px;
+    color: rgb(130, 134, 138);
+    font-size: large;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 680px;
+}
+
+.fotr {
+    color: aliceblue;
+    display: flex;
+    background-color: rgb(68, 64, 64);
+    justify-content: space-between;
+}
+
+.fotr .f1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.fotr img {
+    width: 50px;
+    margin-left: 30px;
+}
+
+.f1 p {
+    text-align: center;
+    margin-top: 9%;
+    z-index: 100;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.par1 {
+    color: aliceblue;
+    width: 300px;
+    margin-left: 80px;
+    text-align: center;
+    display: inline-block;
+}
+
+.par1 p {
+    font-size: 19px;
+}
+
+.par2 {
+    text-align: center;
+    color: aliceblue;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: -240px;
+    display: inline-block;
+}
+
+.par2 p {
+    font-size: 19px;
+}
+
+.par3 h1 {
+    letter-spacing: 10px;
+}
+
+.par3 {
+    text-align: center;
+    color: aliceblue;
+    width: 300px;
+    margin-left: 900px;
+    margin-top: -315px;
+}
+
+.par3 img {
+    color: white;
+    padding: 10px;
+    background-color: rgb(65, 63, 62);
+}
+
+.fb:hover {
+    background-color: blue;
+}
+
+.in:hover {
+    background-color: rgb(190, 25, 94);
+}
+
+.yt:hover {
+    background-color: rgb(170, 28, 28);
+}
+
+.tw:hover {
+    background-color: rgb(5, 155, 201);
+}
+
+.fotpara p {
+    color: white;
+    margin-top: 190px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fotpara span {
+    color: white;
+    margin-top: 200px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 550px;
+}
+
+/* Media Queries */
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    h2 {
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+
+    .hdr h3 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .nav {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .mid1 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .product {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .men{
+        margin-left: 15px;
+    }
+
+    .fotimg h2 {
+        margin-left: 20px;
+    }
+
+    .fotimg .im1 img,
+    .fotimg .im2 img,
+    .fotimg .im3 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .fotimg .im1 .ipar p,
+    .fotimg .im2 .ipar p,
+    .fotimg .im3 .ipar p {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .fotr {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .par1,
+    .par2,
+    .par3 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .fotpara span {
+        margin-left: 20px;
+    }
+}
+
+/* Tablet Devices (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    h2 {
+        margin-left: 200px;
+    }
+
+    .hdr h3 {
+        margin-left: 100px;
+    }
+
+    .nav {
+        margin-left: 400px;
+    }
+
+    .mid1 img {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .product {
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+
+    .fotimg h2 {
+        margin-left: 200px;
+    }
+
+    .fotimg .im1 img,
+    .fotimg .im2 img,
+    .fotimg .im3 img {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .fotimg .im1 .ipar p,
+    .fotimg .im2 .ipar p,
+    .fotimg .im3 .ipar p {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .fotr {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .par1,
+    .par2,
+    .par3 {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    .fotpara span {
+        margin-left: 200px;
+    }
+}
+
+/* Desktop Devices (min-width: 1025px) */
+@media (min-width: 1025px) {
+    /* Keep the default styles for desktop */
+}

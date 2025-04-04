@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(12, 11, 11);
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: "Pacifico", serif;
+    color: rgb(133, 123, 123);
+    font-size: large;
+    padding: 10px;
+}
+
+.nav {
+    margin-left: 800px;
+}
+
+a:hover {
+    color: rgb(85, 82, 82);
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin-left: 530px;
+    font-family: "Dancing Script", serif;
+    color: rgb(216, 206, 206);
+    width: 250px;
+    padding: 7px;
+}
+
+h1:hover {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.image {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    width: 300px;
+    height: 400px;
+}
+
+.image img {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    width: 300px;
+    padding: 20px;
+}
+
+.image img:nth-child(2) {
+    transform: rotatey(180deg);
+}
+
+.image:hover img:nth-child(2) {
+    transform: rotatey(0deg);
+}
+
+.image:hover img:nth-child(1) {
+    transform: rotatey(-180deg);
+}
+
+.box {
+    border: 2px solid wheat;
+    width: 340px;
+    color: blanchedalmond;
+    margin-left: 40px;
+}
+
+.name {
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+.name a {
+    background-color: black;
+    color: rgb(255, 255, 254);
+}
+
+button {
+    width: 300px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: rgb(63, 60, 60);
+    border: none;
+    border-radius: 22px;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(255, 255, 254);
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    row-gap: 20px;
+}
+
+.fotpara p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fotpara span {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 550px;
+}
+
+/* Media Queries */
+
+/* For tablets */
+@media (max-width: 768px) {
+    .nav {
+        margin-left: 400px;
+    }
+
+    h1 {
+        margin-left: 250px;
+    }
+
+    .product {
+        column-gap: 40px;
+    }
+
+    .fotpara span {
+        margin-left: 300px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .nav {
+        margin-left: 20px;
+    }
+
+    .nav li {
+        display: block;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    h1 {
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .product{
+        margin-left: -25px;
+    } 
+
+    .fotpara p{
+        text-align: center;
+    }
+}

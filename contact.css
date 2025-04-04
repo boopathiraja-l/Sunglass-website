@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(12, 11, 11);
+    color: aliceblue;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: "Pacifico", serif;
+    color: rgb(133, 123, 123);
+    font-size: large;
+    padding: 10px;
+}
+
+.nav {
+    margin-left: 900px;
+}
+
+a:hover {
+    color: rgb(85, 82, 82);
+    background-color: antiquewhite;
+}
+
+.cont {
+    margin-left: 20px;
+}
+
+hr {
+    width: 1300px;
+}
+
+input {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(9, 55, 66);
+}
+
+.par3 {
+    text-align: center;
+    color: aliceblue;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: -60px;
+}
+
+.country {
+    margin-left: 750px;
+    margin-top: -60px;
+    padding: 10px;
+}
+
+.fotpara p {
+    color: white;
+    margin-top: 90px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fotpara span {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 550px;
+}
+
+/* Media Queries */
+
+/* For tablets */
+@media (max-width: 768px) {
+    .nav {
+        margin-left: 400px;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .par3 {
+        margin-left: 200px;
+    }
+
+    .country {
+        margin-left: 400px;
+    }
+
+    .fotpara span {
+        margin-left: 300px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .nav {
+        margin-left: 20px;
+    }
+
+    .nav li {
+        display: block;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    input {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    button {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .par3 {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .country {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .fotpara p {
+        margin-top: 50px;
+    }
+
+    .fotpara span {
+        margin-left: 10px;
+    }
+}

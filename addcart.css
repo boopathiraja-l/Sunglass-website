@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(12, 11, 11);
+    color: aliceblue;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: "Pacifico", serif;
+    color: rgb(133, 123, 123);
+    font-size: large;
+}
+
+.nav {
+    margin-left: 900px;
+}
+
+a:hover {
+    color: rgb(85, 82, 82);
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.cart {
+    border: 2px solid white;
+    width: 600px;
+    padding: 20px;
+    height: 55vh;
+}
+
+.cart img {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.cart p {
+    width: 300px;
+    margin-left: 250px;
+    margin-top: -200px;
+}
+
+.bill {
+    border: 2px solid white;
+    width: 600px;
+    padding: 20px;
+    height: 55vh;
+}
+
+.bill p {
+    margin-left: 10px;
+}
+
+button {
+    width: 200px;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 180px;
+}
+
+button:hover {
+    color: rgb(255, 236, 236);
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Media Queries */
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .nav {
+        margin-left: 0; /* Center the navigation */
+        text-align: center; /* Align links to the center */
+    }
+
+    .nav li {
+        display: block; /* Stack navigation items vertically */
+        margin-left: 0; /* Remove left margin */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .cart,
+    .bill {
+        width: 90%; /* Make cart and bill full width */
+        margin: 10px auto; /* Center the elements */
+        height: auto; /* Adjust height for content */
+    }
+
+    .cart img {
+        width: 100%; /* Make image responsive */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .cart p {
+        width: 100%; /* Make text full width */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .box {
+        flex-direction: column; /* Stack cart and bill vertically */
+        row-gap: 20px; /* Add space between stacked items */
+    }
+
+    button {
+        margin-left: 0; /* Center the button */
+        width: 100%; /* Make button full width */
+    }
+}
+
+/* Tablet Devices (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        margin-left: 400px; /* Adjust margin for tablets */
+    }
+
+    .cart,
+    .bill {
+        width: 45%; /* Reduce width for side-by-side layout */
+        height: auto; /* Adjust height for content */
+    }
+
+    .cart img {
+        width: 150px; /* Adjust image size */
+    }
+
+    .cart p {
+        width: 100%; /* Make text full width */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .box {
+        flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        justify-content: center; /* Center the items */
+    }
+
+    button {
+        margin-left: 0; /* Center the button */
+        width: 100%; /* Make button full width */
+    }
+}
+
+/* Desktop Devices (min-width: 1025px) */
+@media (min-width: 1025px) {
+    /* Keep the default styles for desktop */
+}

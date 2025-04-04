@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/Background/bg2.avif);
+    color: aliceblue;
+    background-size: cover;
+    height: 50vh;
+}
+
+.container {
+    width: 400px;
+    height: 50vh;
+    margin: 200px auto;
+}
+
+input[type=user],
+input[type=password] {
+    margin-top: 20px;
+    padding: 10px;
+    width: 270px;
+    margin-left: 70px;
+    background-color: rgb(65, 62, 62);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px;
+}
+
+.container p {
+    margin-left: 260px;
+    margin-top: -28px;
+}
+
+.container a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 270px;
+    margin-left: 70px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    color: rgb(73, 69, 69);
+    background-color: bisque;
+}
+
+.btw input[type=checkbox] {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.btw p {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin-left: 8px;
+    margin-top: -20px;
+}
+
+.new {
+    margin-left: 250px;
+    margin-top: -20px;
+}
+
+.new a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+/* Media Queries */
+
+/* For tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 350px;
+        margin-top: 80px;
+    }
+
+    input[type=user],
+    input[type=password] {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    button {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .container p {
+        margin-left: 220px;
+    }
+
+    .btw input[type=checkbox] {
+        margin-left: 50px;
+    }
+
+    .new {
+        margin-left: 200px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin-top: 50%;
+    }
+
+    input[type=user],
+    input[type=password] {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    button {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .container p {
+        margin-left: 60%;
+    }
+
+    .btw input[type=checkbox] {
+        margin-left: 5%;
+    }
+
+    .btw p {
+        margin-left: 10px;
+        color: white;
+    }
+
+    .new {
+        margin-left: 60%;
+    }
+
+    .new a{
+        color: whitesmoke;
+    }
+}

@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(12, 11, 11);
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: "Pacifico", serif;
+    color: rgb(133, 123, 123);
+    font-size: large;
+    padding: 15px;
+}
+
+.nav {
+    margin-left: 800px;
+    align-items: center;
+}
+
+a:hover {
+    color: rgb(85, 82, 82);
+    background-color: antiquewhite;
+}
+
+.fotpara p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fotpara span {
+    color: white;
+    margin-top: 200px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .nav {
+        margin-left: 0; /* Center the navigation */
+        text-align: center; /* Align links to the center */
+    }
+
+    .nav li {
+        display: block; /* Stack navigation items vertically */
+        margin-left: 0; /* Remove left margin */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .nav a {
+        font-size: medium; /* Slightly smaller font size */
+    }
+
+    .fotpara span {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Tablet Devices (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        margin-left: 400px; /* Adjust margin for tablets */
+    }
+
+    .nav li {
+        margin-left: 20px; /* Reduce margin between items */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .nav a {
+        font-size: large; /* Keep font size consistent */
+    }
+
+    .fotpara span {
+        margin-top: 100px; /* Adjust margin for tablets */
+    }
+}
+
+/* Desktop Devices (min-width: 1025px) */
+@media (min-width: 1025px) {
+    /* Keep the default styles for desktop */
+}
